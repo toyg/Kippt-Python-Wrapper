@@ -17,8 +17,6 @@ if sys.argv[-1] == 'publish':
 
 os.environ['PYTHONDONTWRITEBYTECODE'] = '1'
 
-packages = ['kippt_wrapper']
-
 requires = []
 
 description = ""
@@ -37,7 +35,6 @@ setup(
     author='Thomas Biddle, Giacomo Lacava',
     author_email='g.lacava@gmail.com',
     url='https://github.com/toyg/Kippt-Python-Wrapper',
-    packages=packages,
     package_data={'': ['LICENSE']},
     package_dir={'': 'src'},
     include_package_data=True,
