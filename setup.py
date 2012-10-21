@@ -39,7 +39,7 @@ setup(
     url='https://github.com/toyg/Kippt-Python-Wrapper',
     packages=packages,
     package_data={'': ['LICENSE']},
-    package_dir={'kippt_wrapper': 'src'},
+    package_dir={'': 'src'},
     include_package_data=True,
     install_requires=requires,
     license=license,
